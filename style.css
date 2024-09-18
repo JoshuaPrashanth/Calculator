@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mode {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    height: 30px;
+    width: auto;
+    border: none;
+    border-radius: 20px;
+    z-index: 1;
+    font-size: 20px;
+    padding: 20px;
+    background: linear-gradient(orange, red);
+    color: white;
+}
+.circle {
+    position: relative;
+    left: 80px;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background: linear-gradient(orange, #FA550D);
+}
+.container {
+    position: absolute;
+    height: 450px;
+    width: 280px;
+    border: 2px solid rgb(245, 245, 245, 0.4);
+    background-color: rgb(245, 245, 245, 0.4);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 3px 30px -10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pro {
+    position: absolute;
+    top: 2px;
+    right: 9px;
+    height: 20px;
+    color: white;
+    font-size: 10px;
+}
+.result {
+    position: absolute;
+    top: 60px;
+    height: 15%;
+    width: 88%;
+}
+.tex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 50px;
+    color: white;
+}
+.same {
+    position: relative;
+    top: 70px;
+    height: 13%;
+    width: 100%;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.num {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+button {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(245, 245, 245, 0.3);
+    box-shadow: 0 1px 5px -1px black;
+}
+.lf {
+    height: 50px;
+    width: 126px;
+    border-radius: 30px;
+}
+.last {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.or {
+    background-color: #FE8E15;
+}
+.for {
+    color: #FE8E15;
+    font-size: 20px;
+}
+.wh {
+    color: white;
+    font-size: 28px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    filter: drop-shadow(0 0 2px 2px black);
+}
